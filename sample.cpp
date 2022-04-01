@@ -1,7 +1,9 @@
 #include <Arduino.h>
 #include <MCP3202.h>
 
-MCP3202 adc(D8);
+#define ACD_CHIP_SELECT D8
+
+MCP3202 adc(ACD_CHIP_SELECT);
 
 void setup(){
 	Serial.begin(115200);
