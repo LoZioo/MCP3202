@@ -9,7 +9,6 @@ Cross-platform Arduino library for controlling the `MCP3202` SPI ADC!
 -	Use the `adc.read(int channel)` method to read the 12 bit value from the selected channel (0 or 1).
 
 ## Example of code
-
 Here is an example of reading from both channels and with the chip select on the D8 pin:
 
 ```cpp
