@@ -3,9 +3,6 @@ Cross-platform Arduino library for controlling the `MCP3202` SPI ADC!
 
 `SoftSPI` library provided by [MajenkoLibraries](https://github.com/MajenkoLibraries/SoftSPI "MajenkoLibraries").
 
----
-<br>
-
 ## How to use
 Simply attach you MCP3202 to the 4-Wire SPI interface of your MCU and use the `adc.read(int channel)` method to read the 12 bit value from the selected channel like that:
 
